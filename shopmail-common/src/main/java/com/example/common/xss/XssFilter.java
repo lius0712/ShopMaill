@@ -6,9 +6,8 @@
  * 版权所有，侵权必究！
  */
 
-package io.renren.common.xss;
+package com.example.common.xss;
 
-import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 

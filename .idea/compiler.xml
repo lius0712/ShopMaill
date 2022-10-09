@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopmail_product" />
+        <module name="shopmail_order" />
+        <module name="shopmail_coupon" />
+        <module name="shopmail_member" />
+        <module name="shopmail-common" />
+        <module name="renren-fast" />
+        <module name="shopmail_ware" />
+        <module name="renren-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
+      <module name="shopmail-common" target="1.8" />
+      <module name="shopmail_coupon" target="1.8" />
+      <module name="shopmail_member" target="1.8" />
+      <module name="shopmail_order" target="1.8" />
+      <module name="shopmail_product" target="1.8" />
+      <module name="shopmail_ware" target="1.8" />
+      <module name="ShopMaill" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
+      <module name="shopmail-common" options="-parameters" />
+      <module name="shopmail_coupon" options="-parameters" />
+      <module name="shopmail_member" options="-parameters" />
+      <module name="shopmail_order" options="-parameters" />
+      <module name="shopmail_product" options="-parameters" />
+      <module name="shopmail_ware" options="-parameters" />
+    </option>
+  </component>
+</project>
