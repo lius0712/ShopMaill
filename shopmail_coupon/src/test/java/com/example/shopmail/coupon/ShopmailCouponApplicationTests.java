@@ -1,4 +1,4 @@
-package com.example.shopmail.shopmail_coupon;
+package com.example.shopmail.coupon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

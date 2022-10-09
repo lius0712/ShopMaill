@@ -1,10 +1,10 @@
-package com.example.shopmail.shopmail_product;
+package com.example.shopmail.member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShopmailProductApplicationTests {
+class ShopmailMemberApplicationTests {
 
 	@Test
 	void contextLoads() {
